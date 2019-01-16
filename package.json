@@ -5,27 +5,24 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "NODE_ENV=production sui-bundler build -C",
-    "co": "sui-mono commit",
-    "lint": "sui-lint js && sui-lint sass",
-    "now-build": "npm run build",
-    "precommit": "sui-precommit run",
-    "start": "sui-bundler dev"
+    "dev": "next",
+    "build": "next build",
+    "now-build": "npm run build && next export",
+    "start": "next start",
+    "lint": "sui-lint js && sui-lint sass"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@s-ui/bundler": "4",
-    "@s-ui/lint": "2",
-    "@s-ui/mono": "1",
-    "@s-ui/precommit": "2",
-    "husky": "0.13.4"
+    "@s-ui/lint": "2"
   },
   "dependencies": {
     "@s-ui/domain": "1",
-    "react": "16.8.0-alpha.1",
-    "react-dom": "16.8.0-alpha.1",
+    "isomorphic-fetch": "2.2.1",
+    "next": "7.0.2",
+    "react": "16.7.0",
+    "react-dom": "16.7.0",
     "xml-js": "1.6.9"
   },
   "eslintConfig": {

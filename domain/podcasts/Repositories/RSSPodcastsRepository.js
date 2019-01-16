@@ -9,7 +9,7 @@ export default class RSSPodcastsRepository extends PodcastsRepository {
 
   async all() {
     const feedUrl = this._config.get('FEED_URL')
-    const response = await window.fetch(feedUrl)
+    const response = await fetch(feedUrl)
     const responseText = await response.text()
     return this._mapper.map(responseText)
   }
