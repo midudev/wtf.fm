@@ -34,6 +34,7 @@ export default class extends React.Component {
               'Segoe UI Emoji', 'Segoe UI Symbol';
             width: 100%;
             margin: 0;
+            padding: 16px;
           }
           main {
             margin: auto;
