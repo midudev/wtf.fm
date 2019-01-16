@@ -11,6 +11,10 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
+          <meta
+            name="google-site-verification"
+            content="DP-Ib0T2EC8me6CGcFCwZtuF_t1x1nKuEi1uGXQvFzw"
+          />
           <NextScript />
         </Head>
         <body>
