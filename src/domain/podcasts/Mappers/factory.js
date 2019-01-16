@@ -1,4 +1,4 @@
-import FromRSSTextToListOfPodcastsValueObject from './fromRssTextToListOfPodcastsValueObject'
+import FromRSSTextToListOfPodcastsValueObject from './fromRSSTextToListOfPodcastsValueObject'
 
 import PodcastsValueObjectsFactory from '../ValueObjects/factory'
 
