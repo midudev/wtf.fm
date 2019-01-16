@@ -5,11 +5,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "co": "sui-mono commit",
     "build": "NODE_ENV=production sui-bundler build -C",
-    "start": "sui-bundler dev",
+    "co": "sui-mono commit",
     "lint": "sui-lint js && sui-lint sass",
-    "precommit": "sui-precommit run"
+    "now-build": "npm run build",
+    "precommit": "sui-precommit run",
+    "start": "sui-bundler dev"
   },
   "keywords": [],
   "author": "",
