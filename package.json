@@ -18,12 +18,8 @@
     "@s-ui/lint": "2"
   },
   "dependencies": {
-    "@s-ui/domain": "1",
-    "isomorphic-fetch": "2.2.1",
-    "next": "7.0.2",
-    "react": "16.7.0",
-    "react-dom": "16.7.0",
-    "xml-js": "1.6.9"
+    "htm": "2.1.1",
+    "preact": "8.4.2"
   },
   "eslintConfig": {
     "extends": [
